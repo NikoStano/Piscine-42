@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/29 15:12:18 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/02 16:58:20 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:24:29 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:24:29 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,19 +19,12 @@ void	ft_putchar(char c)
 
 void	ft_print_reverse_alphabet(void)
 {
-	int	letter;
+	int	l;
 
-	letter = 122;
-	while (letter >= 97)
+	l = 'z';
+	while (l >= 'a')
 	{
-		ft_putchar(letter);
-		letter--;
+		ft_putchar(l);
+		l--;
 	}
 }
-
-/*int	main(void)
-{
-	ft_print_reverse_alphabet();
-	return (0);
-}
-*/

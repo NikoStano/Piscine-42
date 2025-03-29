@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/10 20:01:54 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/10 20:20:07 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:07:48 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:07:48 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,18 +23,3 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
-
-// int	main(int ac, char **av)
-// {
-//     int	i = 1;
-//     if (ac > 1)
-//     {
-//         while (i < ac)
-//         {
-//             ft_putstr(av[i]);
-//             write(1, "\n", 1);
-//             i++;
-//         }
-//     }
-//     return (0);
-// }

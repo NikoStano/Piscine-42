@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/04 12:56:17 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/06 13:35:12 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:20:25 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:20:25 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,15 +23,3 @@ int	ft_str_is_printable(char *str)
 	}
 	return (1);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_str_is_printable("1"));
-// 	printf("%d\n", ft_str_is_printable(""));
-// 	printf("%d\n", ft_str_is_printable(" "));
-// 	printf("%d\n", ft_str_is_printable("A"));
-// 	printf("%d\n", ft_str_is_printable("b"));
-// 	return (0);
-// }

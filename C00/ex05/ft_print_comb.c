@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/29 20:07:45 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/02 17:00:23 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:26:02 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:26:02 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,10 +44,3 @@ void	ft_print_comb(void)
 		a++;
 	}
 }
-
-/*int	main(void)
-{
-	ft_print_comb();
-	return (0);
-}
-*/

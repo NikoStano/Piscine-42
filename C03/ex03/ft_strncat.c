@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/09 12:19:15 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/10 18:37:51 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:09:14 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:09:14 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,13 +32,3 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	dest[i] = '\0';
 	return (dest);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	src[50] = "test";
-// 	char	dest[50] = "oui";
-// 	printf("%s\n%s\n", src, ft_strncat(dest, src, 3));
-// 	return (0);
-// }

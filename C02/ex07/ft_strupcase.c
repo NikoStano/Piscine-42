@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strupcase.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/04 12:56:28 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/09 12:00:19 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:20:35 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:20:35 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,3 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {	
-// 	char stri[] = "salut je te laisse tester";
-// 	printf("%s\n", ft_strupcase(stri));
-// 	return (0);
-// }

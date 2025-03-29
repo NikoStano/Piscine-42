@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_program_name.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/07 14:03:46 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/14 13:39:19 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:11:33 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:11:33 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/09 12:17:08 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/10 17:25:07 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:08:27 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:08:27 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,3 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return (s1[i] - s2[i]);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	s1[] = "test1";
-// 	char	s2[] = "test";
-// 	printf("%d\n", ft_strcmp(s1, s2));
-// 	return (0);
-// }

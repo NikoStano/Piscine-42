@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/04 12:56:36 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/09 12:01:49 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:20:45 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:20:45 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,3 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {	
-// 	char stri[] = "SALUT JE TE LAISSE TESTER";
-// 	printf("%s\n", ft_strlowcase(stri));
-// 	return (0);
-// }

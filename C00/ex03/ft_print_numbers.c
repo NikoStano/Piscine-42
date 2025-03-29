@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/29 17:28:50 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/02 20:25:09 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:24:45 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:24:45 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,17 +16,10 @@ void	ft_print_numbers(void)
 {
 	char	n;
 
-	n = 48;
-	while (n <= 57)
+	n = '0';
+	while (n <= '9')
 	{
 		write(1, &n, 1);
 		n++;
 	}
 }
-
-/*int	main(void)
-{
-	ft_print_numbers();
-	return (0);
-}
-*/

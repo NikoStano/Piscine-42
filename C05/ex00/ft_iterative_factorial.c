@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/12 10:12:30 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/16 20:28:43 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:17:52 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:17:52 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,3 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (nb);
 }
-
-/*
-#include <stdlib.h>
-#include <stdio.h>
-
-int	main(int ac, char **av)
-{
-	(void)ac;
-	printf("%d\n", ft_iterative_factorial(atoi(av[1])));
-}*/

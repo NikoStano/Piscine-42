@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/16 17:46:32 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/17 17:46:23 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:16:46 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:16:46 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_sqrt(int nb)
 {
@@ -27,11 +25,3 @@ int	ft_sqrt(int nb)
 	}
 	return (0);
 }
-
-// #include <stdio.h>
-
-// int	main()
-// {
-// 	printf("%d\n", ft_sqrt(81));
-// 	printf("%d\n", ft_sqrt(25));
-// }

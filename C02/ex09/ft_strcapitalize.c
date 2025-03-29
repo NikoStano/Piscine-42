@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nistanoj <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/27 14:46:25 by nistanoj          #+#    #+#             */
-/*   Updated: 2024/10/03 22:23:22 by nistanoj         ###   ########.fr       */
+/*   Created: 2025/03/29 00:21:03 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:21:03 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,14 +64,3 @@ char  *ft_strcapitalize(char *str)
     str[0] -= 32;
   return (str);
 }
-/*
-#include <unistd.h>
-#include <stdio.h>
-
-int  main()
-{
-  char  str[] = "Salut, comment tu Vas ? 42mots quarante-deux; Cinquante+Et+un";
-  ft_strcapitalize(str);
-  printf("%s\n", str);
-  return (0);
-}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/29 17:55:18 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/02 17:00:11 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:25:45 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:25:45 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,3 @@ void	ft_is_negative(int n)
 	else
 		ft_putchar('N');
 }
-
-/*int	main(void)
-{
-	ft_is_negative(-1);
-	return (0);
-}
-*/

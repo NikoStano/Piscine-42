@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/03 13:56:26 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/03 15:13:17 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:21:54 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:21:54 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdlib.h>
 
 void    ft_putstr(char *str)
 {
@@ -25,18 +24,3 @@ void    ft_putstr(char *str)
     }
     str[i] = '\0';
 }
-
-// int main(int ac, char **av)
-// {
-//     int i = 1;
-//     if (ac > 1)
-//     {
-//         while (i < ac)
-//         {
-//             ft_putstr(av[i]);
-//             write(1, "\n", 1);
-//             i++;
-//         }
-//     }
-//     return (0);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/04 12:55:02 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/09 18:47:53 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:18:55 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:18:55 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char src[10] = "salutt";
-// 	char dest[10] = "";
-// 	printf("%s\n%s\n", src, ft_strncpy(dest, src, 4));
-// 	return (0);
-// }

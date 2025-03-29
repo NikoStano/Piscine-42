@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_iterative_power.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/12 16:15:08 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/17 20:06:37 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:17:28 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:17:28 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 int	ft_iterative_power(int nb, int power)
 {
@@ -30,10 +28,3 @@ int	ft_iterative_power(int nb, int power)
 	}
 	return (n);
 }
-
-// #include <stdio.h>
-
-// int	main()
-// {
-// 	printf("result : %d\n", ft_iterative_power(5, 5));
-// }

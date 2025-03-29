@@ -3,17 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nistanoj <marvin@student.42.fr>            +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/17 13:17:11 by nistanoj          #+#    #+#             */
-/*   Updated: 2024/10/17 13:17:11 by nistanoj         ###   ########.fr       */
+/*   Created: 2025/03/29 00:11:19 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:11:19 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <stdio.h>
 
 int ft_strlen(char *str)
 {
@@ -42,15 +37,3 @@ char    *ft_strdup(char *str)
     str1[i] = '\0';
     return (str1);
 }
-/*
-intmain()
-{
-    char    str[] = "salut ca va ?";
-    char    *str1;
-
-    str1 = ft_strdup(str);
-    printf("Adresse : %p\n", str1);
-    printf("Adresse : %p\n", str);
-    printf("Dupli : %s\n", str1);
-    free(str1);
-}*/

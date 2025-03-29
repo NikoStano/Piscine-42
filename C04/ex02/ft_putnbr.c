@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/10 20:12:39 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/11 13:47:11 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:06:57 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:06:57 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,16 +32,3 @@ void	ft_putnbr(int nb)
 	ft_putchar(n % 10 + 48);
 }
 
-// int main(int ac, char **av)
-// {
-//     if (ac > 1 && ac < 3)
-//     {
-//         ft_putnbr(atoi(av[1]));
-//         ft_putchar('\n');
-//     }
-//     else
-//     {
-//         return (printf("1 arg !\n"));
-//     }
-//     return (0);
-// }

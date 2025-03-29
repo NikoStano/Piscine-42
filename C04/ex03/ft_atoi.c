@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/11 12:13:47 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/11 15:43:34 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:07:12 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:07:12 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 int	ft_atoi(char *str)
 {
@@ -38,11 +36,3 @@ int	ft_atoi(char *str)
 	}
 	return (res * neg);
 }
-
-//  int	main(void)
-//  {
-// 	char	str[] = "13";
-//	char	str1[] = "42";
-// 	printf("%d\n", ft_atoi(str));
-// 	printf("%d\n", atoi(str1));
-// }

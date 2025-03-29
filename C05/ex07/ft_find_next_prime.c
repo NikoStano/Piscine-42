@@ -3,16 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_find_next_prime.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/16 18:12:07 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/17 17:39:29 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:16:18 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:16:18 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 int	ft_find_next_prime(int nb)
 {
@@ -29,10 +25,3 @@ int	ft_find_next_prime(int nb)
 	}
 	return (nb);
 }
-
-/*
-int	main(int ac, char **av)
-{
-	(void)ac;
-	printf("Next prime : %d\n", ft_find_next_prime(atoi(av[1])));
-}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/29 14:27:59 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/02 16:58:37 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:23:50 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:23:50 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,19 +19,12 @@ void	ft_putchar(char c)
 
 void	ft_print_alphabet(void)
 {
-	int	letter;
+	int	l;
 
-	letter = 97;
-	while (letter <= 122)
+	l = 'a';
+	while (l <= 'z')
 	{
-		ft_putchar(letter);
-	letter++;
+		ft_putchar(l);
+	l++;
 	}	
 }
-
-/*int	main(void)
-{
-	ft_print_alphabet();
-	return (0);
-}
-*/

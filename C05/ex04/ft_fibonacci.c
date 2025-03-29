@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fibonacci.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nstanoje <nstanoje@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/13 19:30:20 by nstanoje          #+#    #+#             */
-/*   Updated: 2023/07/16 17:45:49 by nstanoje         ###   ########.fr       */
+/*   Created: 2025/03/29 00:17:03 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:17:03 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,3 @@ int	ft_fibonacci(int index)
 		return (ft_fibonacci(index - 1) + ft_fibonacci(index - 2));
 	return (0);
 }
-
-/*
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
-
-int	main(int ac, char **av)
-{
-	(void)ac;
-	printf("Result : %d\n", ft_fibonacci(atoi(av[1])));
-}*/

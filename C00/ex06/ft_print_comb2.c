@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 17:58:30 by niko              #+#    #+#             */
-/*   Updated: 2024/10/17 01:15:56 by marvin           ###   ########.fr       */
+/*   Created: 2025/03/29 00:26:14 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/03/29 00:26:14 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
 
 void    ft_putchar(char c)
 {
@@ -20,11 +19,11 @@ void    ft_putchar(char c)
 
 void	ft_mod(int first, int second)
 {
-	ft_putchar(first / 10 + 48);
-	ft_putchar(first % 10 + 48);
+	ft_putchar(first / 10 + '0');
+	ft_putchar(first % 10 + '0');
 	ft_putchar(' ');
-	ft_putchar(second / 10 + 48);
-	ft_putchar(second % 10 + 48);
+	ft_putchar(second / 10 + '0');
+	ft_putchar(second % 10 + '0');
 }
 
 void	ft_print_comb2(void)
@@ -46,11 +45,3 @@ void	ft_print_comb2(void)
 		i++;
 	}
 }
-
-// int	main(void)
-// {
-// 	ft_print_comb2();
-// 	ft_putchar('\n');
-// 	printf("Salut je croit c'est fini ! :p\n");
-// 	return (0);
-// }
