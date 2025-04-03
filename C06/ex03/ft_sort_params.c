@@ -14,12 +14,12 @@
 
 void	ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }
 
-int		ft_strcmp(char *s1, char *s2)
+int	ft_strcmp(char *s1, char *s2)
 {
-    int	i;
+	int	i;
 
 	i = 0;
 	while ((s1[i] || s2[i]) && s1[i] == s2[i])
@@ -41,7 +41,7 @@ void	ft_switch(char **argv, int i, int j)
 
 void	ft_putstr(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])
@@ -51,7 +51,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	int		i;
 	int		j;
@@ -71,7 +71,7 @@ int		main(int argc, char **argv)
 	while (i < argc)
 	{
 		ft_putstr(argv[i]);
-        ft_putchar('\n');
+		ft_putchar('\n');
 		i++;
 	}
 }

@@ -1,28 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_program_name.c                            :+:      :+:    :+:   */
+/*   ft_putstr_non_printable.c                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/29 00:11:33 by nistanoj          #+#    #+#             */
-/*   Updated: 2025/03/29 00:11:33 by nistanoj         ###   ########.fr       */
+/*   Created: 2025/04/03 13:00:16 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/04/03 13:05:33 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdlib.h>
 
-int	main(int ac, char **av)
+void	ft_putchar(char c)
 {
-	int	i;
+	write(1, &c, 1);
+}
 
-	(void)ac;
+void	ft_putstr_non_printable(char *str)
+{
+	int		i;
+	char	*hex;
+
+	hex = "0123456789abcdef";
 	i = 0;
-	while (av[0][i])
+	while (str[i])
 	{
-		write(1, &av[0][i], 1);
+		if ((unsigned char)str[i] < 32 || (unsigned char)str[i] > 126)
+		{
+			ft_putchar('\\');
+			ft_putchar(hex[(unsigned char)str[i] / 16]);
+			ft_putchar(hex[(unsigned char)str[i] % 16]);
+		}
+		else
+			ft_putchar(str[i]);
 		i++;
 	}
-	write(1, "\n", 1);
-	return (0);
 }

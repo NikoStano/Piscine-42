@@ -5,19 +5,21 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/29 00:21:43 by nistanoj          #+#    #+#             */
-/*   Updated: 2025/03/29 00:21:43 by nistanoj         ###   ########.fr       */
+/*   Created: 2025/04/03 05:14:24 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/04/03 05:14:32 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int    ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (str[i])
-        i++;
-    return (i);
+	i = 0;
+	while (str[i])
+	{
+		i++;
+	}
+	return (i);
 }

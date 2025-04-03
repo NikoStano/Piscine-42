@@ -25,6 +25,6 @@ void	ft_print_alphabet(void)
 	while (l <= 'z')
 	{
 		ft_putchar(l);
-	l++;
-	}	
+		l++;
+	}
 }

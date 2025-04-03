@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nistanoj <nistanoj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/29 00:29:35 by nistanoj          #+#    #+#             */
-/*   Updated: 2025/03/29 00:29:35 by nistanoj         ###   ########.fr       */
+/*   Created: 2025/04/03 04:58:28 by nistanoj          #+#    #+#             */
+/*   Updated: 2025/04/03 08:03:56 by nistanoj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,33 @@ void	ft_print_combn(int n)
 {
 	int	tab[10];
 
+	if (n == 10)
+	{
+		write(1, "0123456789\n", 11);
+		return ;
+	}
 	if (n > 0 && n < 10)
 		ft_find_comb(tab, n, 0);
 }
+
+// int	main(void)
+// {
+// 	ft_print_combn(2);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(3);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(4);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(5);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(6);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(7);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(8);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(9);
+// 	write(1, "\n", 1);
+// 	ft_print_combn(10);
+// 	return (0);
+// }
